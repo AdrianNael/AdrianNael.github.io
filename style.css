@@ -1,0 +1,50 @@
+.jumbotron {
+  font-family: cursive;
+  font-size: small;
+  background-color: #ffd700;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-inline-start: 20%;
+}
+#Hello {
+  padding-top: 120px;
+}
+#project {
+  background-color: #ffd700;
+}
+
+section {
+  padding-top: 6rem;
+}
+body {
+  font-family: serif;
+}
+
+/*-- Custom Buttons --*/
+.btn:focus,
+.btn:active {
+  /* Prevent clue outline around boostrap buttons */
+  outline: none !important;
+}
+
+.btn-clear-light,
+.btn-clear-light:visited {
+  color: #000000;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 0;
+}
+
+.btn-clear-light:hover {
+  color: #ffffff;
+  background: #333;
+}
+
+.task,
+.task:visited {
+  color: #000000;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 0;
+}
